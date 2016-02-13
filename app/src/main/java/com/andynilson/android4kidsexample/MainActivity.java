@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         if (view.getId() == R.id.dpsp_button) {
             intent = new Intent(this, DpSpActivity.class);
         } else if (view.getId() == R.id.wrapped_match_button) {
-            intent = new Intent(this, WrappedMatchActivity.class);
+            intent = new Intent(this, WrapMatchActivity.class);
         } else if (view.getId() == R.id.orientationhorizontal_button) {//
             intent = new Intent(this, OrientationHorizontalActivity.class);//
         } else if (view.getId() == R.id.orientationvertical_button) {//

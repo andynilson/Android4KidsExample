@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DpSpActivity" />
-        <activity android:name=".WrappedMatchActivity" />
+        <activity android:name=".WrapMatchActivity" />
         <activity android:name=".OrientationVerticalActivity" />
         <activity android:name=".OrientationHorizontalActivity"></activity>
     </application>
