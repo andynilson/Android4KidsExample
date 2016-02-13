@@ -18,7 +18,8 @@
         <activity android:name=".DpSpActivity" />
         <activity android:name=".WrapMatchActivity" />
         <activity android:name=".OrientationVerticalActivity" />
-        <activity android:name=".OrientationHorizontalActivity"></activity>
+        <activity android:name=".OrientationHorizontalActivity" />
+        <activity android:name=".WeightActivity" />
     </application>
 
 </manifest>

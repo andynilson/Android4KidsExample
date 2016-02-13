@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
             intent = new Intent(this, OrientationHorizontalActivity.class);//
         } else if (view.getId() == R.id.orientationvertical_button) {//
             intent = new Intent(this, OrientationVerticalActivity.class);//
+        } else if (view.getId() == R.id.weight_vertical_button) {//
+            intent = new Intent(this, WeightActivity.class);//
+
+
         }
 
 

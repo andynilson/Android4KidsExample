@@ -37,4 +37,13 @@
         android:id="@+id/orientationhorizontal_button"
         android:onClick="navigateToActivity"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weight vertical"
+        android:id="@+id/weight_vertical_button"
+        android:onClick="navigateToActivity"/>
+
+
+
 </LinearLayout>
