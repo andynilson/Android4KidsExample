@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.andynilson.android4kidsexample.MainActivity">
+
+    <Button
+        android:id="@+id/dpsp_button"
+        android:layout_width="wrap_content"
+        android:onClick="navigateToActivity"
+        android:layout_height="wrap_content"
+        android:text="DPs and SPs" />
+
+
+    <Button
+        android:id="@+id/wrapped_match_button"
+        android:onClick="navigateToActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrapped Content &amp; Match Parent" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="linearlayout vertical"
+        android:id="@+id/orientationvertical_button"
+        android:onClick="navigateToActivity"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="linearlayout horizontal"
+        android:id="@+id/orientationhorizontal_button"
+        android:onClick="navigateToActivity"/>
+
+</LinearLayout>
