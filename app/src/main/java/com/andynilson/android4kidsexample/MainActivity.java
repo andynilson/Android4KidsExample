@@ -22,12 +22,14 @@ public class MainActivity extends AppCompatActivity {
             intent = new Intent(this, DpSpActivity.class);
         } else if (view.getId() == R.id.wrapped_match_button) {
             intent = new Intent(this, WrapMatchActivity.class);
-        } else if (view.getId() == R.id.orientationhorizontal_button) {//
-            intent = new Intent(this, OrientationHorizontalActivity.class);//
-        } else if (view.getId() == R.id.orientationvertical_button) {//
-            intent = new Intent(this, OrientationVerticalActivity.class);//
-        } else if (view.getId() == R.id.weight_vertical_button) {//
-            intent = new Intent(this, WeightActivity.class);//
+        } else if (view.getId() == R.id.orientationhorizontal_button) {
+            intent = new Intent(this, OrientationHorizontalActivity.class);
+        } else if (view.getId() == R.id.orientationvertical_button) {
+            intent = new Intent(this, OrientationVerticalActivity.class);
+        } else if (view.getId() == R.id.weight_vertical_button) {
+            intent = new Intent(this, WeightActivity.class);
+        } else if (view.getId() == R.id.relative_layout_button) {
+            intent = new Intent(this, RelativeActivity.class);
 
 
         }

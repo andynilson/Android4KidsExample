@@ -20,6 +20,7 @@
         <activity android:name=".OrientationVerticalActivity" />
         <activity android:name=".OrientationHorizontalActivity" />
         <activity android:name=".WeightActivity" />
+        <activity android:name=".RelativeActivity"></activity>
     </application>
 
 </manifest>
