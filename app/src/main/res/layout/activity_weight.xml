@@ -23,6 +23,5 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:text="2" />
-
-
+    
 </LinearLayout>

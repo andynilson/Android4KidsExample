@@ -29,7 +29,14 @@ public class MainActivity extends AppCompatActivity {
         } else if (view.getId() == R.id.weight_vertical_button) {
             intent = new Intent(this, WeightActivity.class);
         } else if (view.getId() == R.id.relative_layout_button) {
-            intent = new Intent(this, RelativeActivity.class);
+            intent = new Intent(this, RelativeActivity.class);}
+          else if (view.getId() == R.id.birthday_card_button) {
+                intent = new Intent(this, BirthdayCardActivity.class);
+        } else if (view.getId() == R.id.activity_button) {
+            intent = new Intent(this, SimpleActivity.class);
+        }else if(view.getId() == R.id.onclick_button) {
+                intent = new Intent(this, onclickactivity.class);
+
 
 
         }
